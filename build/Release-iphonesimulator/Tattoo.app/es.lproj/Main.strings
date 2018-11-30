@@ -1,0 +1,333 @@
+
+/* Class = "IBUILabel"; text = "Change Password"; ObjectID = "05y-Fn-zjJ"; */
+"05y-Fn-zjJ.text" = "cambiar la contraseña";
+
+/* Class = "IBUILabel"; text = "TIME:"; ObjectID = "06N-bg-RPA"; */
+"06N-bg-RPA.text" = "TIME:";
+
+/* Class = "IBUILabel"; text = "MACHINE1"; ObjectID = "08x-Al-kES"; */
+"08x-Al-kES.text" = "MACHINE1";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "0iz-Xk-9X1"; */
+"0iz-Xk-9X1.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "0kU-9G-xya"; */
+"0kU-9G-xya.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Menu"; ObjectID = "1Iq-Ay-7S7"; */
+"1Iq-Ay-7S7.text" = "Menù";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "1c3-yR-deb"; */
+"1c3-yR-deb.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "SHADER"; ObjectID = "27L-pF-vCX"; */
+"27L-pF-vCX.text" = "SHADER";
+
+/* Class = "IBUILabel"; text = "Cambia nome"; ObjectID = "3QH-a1-mrL"; */
+"3QH-a1-mrL.text" = "nombre cambios";
+
+/* Class = "IBUILabel"; text = "FOOTSWITCH MODE"; ObjectID = "42n-QN-BPI"; */
+"42n-QN-BPI.text" = "Pedal";
+
+/* Class = "IBUILabel"; text = "FOOTSWITCH MODE"; ObjectID = "4Iv-81-3mg"; */
+"4Iv-81-3mg.text" = "Pedal";
+
+/* Class = "IBUILabel"; text = "MACHINE3"; ObjectID = "4iz-UF-vhv"; */
+"4iz-UF-vhv.text" = "MACHINE3";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "5zF-yN-iHi"; */
+"5zF-yN-iHi.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "67b-6o-QwZ"; */
+"67b-6o-QwZ.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "6Ca-L7-sn1"; */
+"6Ca-L7-sn1.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "L1"; ObjectID = "6KT-WE-Rbw"; */
+"6KT-WE-Rbw.text" = "L1";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "6NA-52-RqC"; */
+"6NA-52-RqC.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "SPEED:"; ObjectID = "6ig-8U-G0T"; */
+"6ig-8U-G0T.text" = "SPEED:";
+
+/* Class = "IBUIButton"; normalTitle = "Conferma"; ObjectID = "9Xm-xC-b0O"; */
+"9Xm-xC-b0O.normalTitle" = "Confirmación";
+
+/* Class = "IBUILabel"; text = "00:00"; ObjectID = "AeP-bx-jci"; */
+"AeP-bx-jci.text" = "00:00";
+
+/* Class = "IBUILabel"; text = "Settings"; ObjectID = "Aj3-cB-Fhd"; */
+"Aj3-cB-Fhd.text" = "Configuraciones";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "BDq-tD-wJp"; */
+"BDq-tD-wJp.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "CONNECT"; ObjectID = "BX4-Rm-Xmy"; */
+"BX4-Rm-Xmy.text" = "CONNECT";
+
+/* Class = "IBUILabel"; text = "L2"; ObjectID = "Bn1-ja-xcv"; */
+"Bn1-ja-xcv.text" = "L2";
+
+/* Class = "IBUIButton"; normalTitle = "Conferma nuovo nome"; ObjectID = "BqK-95-g42"; */
+"BqK-95-g42.normalTitle" = "Nombre de confirmación";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "CMj-JA-ffz"; */
+"CMj-JA-ffz.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "L1"; ObjectID = "DAb-uu-mdd"; */
+"DAb-uu-mdd.text" = "L1";
+
+/* Class = "IBUILabel"; text = "TIME:"; ObjectID = "Dll-gQ-G51"; */
+"Dll-gQ-G51.text" = "TIME:";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "E3K-Ab-kfl"; */
+"E3K-Ab-kfl.text" = "12";
+
+/* Class = "IBUILabel"; text = "CONNECT"; ObjectID = "ET3-OG-wm0"; */
+"ET3-OG-wm0.text" = "CONNECT";
+
+/* Class = "IBUILabel"; text = "MACHINE2"; ObjectID = "EyO-bf-Ziw"; */
+"EyO-bf-Ziw.text" = "MACHINE2";
+
+/* Class = "IBUILabel"; text = "MACHINE2"; ObjectID = "FBG-dn-eLg"; */
+"FBG-dn-eLg.text" = "MACHINE2";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "FRL-DK-OYg"; */
+"FRL-DK-OYg.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "MACHINE4"; ObjectID = "Fbv-hn-myb"; */
+"Fbv-hn-myb.text" = "MACHINE4";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "FmH-vN-uzR"; */
+"FmH-vN-uzR.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "LINER"; ObjectID = "GLB-AP-sNd"; */
+"GLB-AP-sNd.text" = "LINER";
+
+/* Class = "IBUILabel"; text = "TIME:"; ObjectID = "H5o-LM-Tj0"; */
+"H5o-LM-Tj0.text" = "TIME:";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "Hay-iu-WGq"; */
+"Hay-iu-WGq.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "IDr-34-ev4"; */
+"IDr-34-ev4.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "SHADER"; ObjectID = "Igf-lR-rjV"; */
+"Igf-lR-rjV.text" = "SHADER";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "In9-Tr-Xku"; */
+"In9-Tr-Xku.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "MACHINE4"; ObjectID = "Jkj-sZ-r3R"; */
+"Jkj-sZ-r3R.text" = "MACHINE4";
+
+/* Class = "IBUIViewController"; title = "Control"; ObjectID = "Jyo-8T-yGd"; */
+"Jyo-8T-yGd.title" = "Control";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "KUb-ry-XqN"; */
+"KUb-ry-XqN.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Current Password"; ObjectID = "KVj-Eh-PNI"; */
+"KVj-Eh-PNI.text" = "Contraseña actual";
+
+/* Class = "IBUILabel"; text = "Confirm new password"; ObjectID = "Kes-W9-Tt3"; */
+"Kes-W9-Tt3.text" = "Confirmar nueva contraseña";
+
+/* Class = "IBUILabel"; text = "Menu"; ObjectID = "KfR-W6-ki9"; */
+"KfR-W6-ki9.text" = "Menù";
+
+/* Class = "IBUILabel"; text = "SPEED:"; ObjectID = "LxO-18-7bl"; */
+"LxO-18-7bl.text" = "SPEED:";
+
+/* Class = "IBUILabel"; text = "V"; ObjectID = "Ml9-XF-lN6"; */
+"Ml9-XF-lN6.text" = "V";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "MyF-30-QGr"; */
+"MyF-30-QGr.text" = "12";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "POQ-oz-gc2"; */
+"POQ-oz-gc2.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "Q9f-cc-mte"; */
+"Q9f-cc-mte.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "QAw-dq-JJq"; */
+"QAw-dq-JJq.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "X"; ObjectID = "QP4-WU-kAc"; */
+"QP4-WU-kAc.normalTitle" = "X";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "QXy-pP-LPG"; */
+"QXy-pP-LPG.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "MACHINE5"; ObjectID = "QYT-do-WfX"; */
+"QYT-do-WfX.text" = "MACHINE5";
+
+/* Class = "IBUILabel"; text = "MACHINE5"; ObjectID = "RQA-Zh-UOD"; */
+"RQA-Zh-UOD.text" = "MACHINE5";
+
+/* Class = "IBUILabel"; text = "MACHINE3"; ObjectID = "Rp4-a1-i3i"; */
+"Rp4-a1-i3i.text" = "MACHINE3";
+
+/* Class = "IBUILabel"; text = "L1"; ObjectID = "SBW-3D-Ajj"; */
+"SBW-3D-Ajj.text" = "L1";
+
+/* Class = "IBUILabel"; text = "SPEED:"; ObjectID = "SVr-Q2-Ups"; */
+"SVr-Q2-Ups.text" = "SPEED:";
+
+/* Class = "IBUIButton"; normalTitle = "Add"; ObjectID = "U8c-ij-cHW"; */
+"U8c-ij-cHW.normalTitle" = "Add";
+
+/* Class = "IBUILabel"; text = "L2"; ObjectID = "Upf-wC-G4l"; */
+"Upf-wC-G4l.text" = "L2";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "Wap-Kb-oCa"; */
+"Wap-Kb-oCa.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "MACHINE2"; ObjectID = "Xbt-Kl-Jbr"; */
+"Xbt-Kl-Jbr.text" = "MACHINE2";
+
+/* Class = "IBUILabel"; text = "V"; ObjectID = "YpJ-L4-XsS"; */
+"YpJ-L4-XsS.text" = "V";
+
+/* Class = "IBUILabel"; text = "Nuova Password"; ObjectID = "ZCz-N5-0e1"; */
+"ZCz-N5-0e1.text" = "Nueva contraseña";
+
+/* Class = "IBUILabel"; text = "CONNECT"; ObjectID = "Zuz-XT-0GK"; */
+"Zuz-XT-0GK.text" = "CONNECT";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "Zx7-ch-1Aj"; */
+"Zx7-ch-1Aj.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "a8n-m8-lak"; */
+"a8n-m8-lak.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "MACHINE4"; ObjectID = "af9-Ey-LyQ"; */
+"af9-Ey-LyQ.text" = "MACHINE4";
+
+/* Class = "IBUILabel"; text = "00:00"; ObjectID = "bMq-4G-R5p"; */
+"bMq-4G-R5p.text" = "00:00";
+
+/* Class = "IBUILabel"; text = "LINER"; ObjectID = "c4l-PG-RCC"; */
+"c4l-PG-RCC.text" = "LINER";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "c90-Jo-6I9"; */
+"c90-Jo-6I9.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Set password"; ObjectID = "ceE-2c-2i8"; */
+"ceE-2c-2i8.text" = "Establecer contraseña";
+
+/* Class = "IBUILabel"; text = "DUTY:"; ObjectID = "cgg-Iq-kPW"; */
+"cgg-Iq-kPW.text" = "DUTY:";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "coA-wn-GGy"; */
+"coA-wn-GGy.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Password and Name Device"; ObjectID = "fs4-y7-yXh"; */
+"fs4-y7-yXh.text" = "contraseña y nombre de dispositivo";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "fsw-aW-AaF"; */
+"fsw-aW-AaF.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "MACHINE3"; ObjectID = "fvf-ng-eJS"; */
+"fvf-ng-eJS.text" = "MACHINE3";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "fxS-Ql-aqe"; */
+"fxS-Ql-aqe.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "gXg-hz-2ZZ"; */
+"gXg-hz-2ZZ.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "MACHINE1"; ObjectID = "h82-lF-YcY"; */
+"h82-lF-YcY.text" = "MACHINE1";
+
+/* Class = "IBUILabel"; text = "Set password"; ObjectID = "hIx-fX-ugU"; */
+"hIx-fX-ugU.text" = "Establecer contraseña";
+
+/* Class = "IBUIButton"; normalTitle = "Confirm set password"; ObjectID = "hSq-yt-gcM"; */
+"hSq-yt-gcM.normalTitle" = "Confirmación conjunto contraseña";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "hil-1K-8Pc"; */
+"hil-1K-8Pc.normalTitle" = "Button";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "j1j-dd-lrn"; */
+"j1j-dd-lrn.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "12"; ObjectID = "jJB-cj-fwU"; */
+"jJB-cj-fwU.text" = "12";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "keo-wU-DUa"; */
+"keo-wU-DUa.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Cambia nome"; ObjectID = "l6Z-o8-t7c"; */
+"l6Z-o8-t7c.text" = "nombre cambios";
+
+/* Class = "IBUILabel"; text = "L2"; ObjectID = "lKi-So-IVh"; */
+"lKi-So-IVh.text" = "L2";
+
+/* Class = "IBUILabel"; text = "DUTY:"; ObjectID = "lqw-Za-Ef1"; */
+"lqw-Za-Ef1.text" = "DUTY:";
+
+/* Class = "IBUITextField"; placeholder = "Inserire nome marca"; ObjectID = "m4Q-cK-oOl"; */
+"m4Q-cK-oOl.placeholder" = "Inserire nome marca";
+
+/* Class = "IBUILabel"; text = "Menu"; ObjectID = "mas-R8-u7k"; */
+"mas-R8-u7k.text" = "Menù";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "myA-KI-h71"; */
+"myA-KI-h71.text" = "Label";
+
+/* Class = "IBUILabel"; text = "FOOTSWITCH MODE"; ObjectID = "niE-kj-bds"; */
+"niE-kj-bds.text" = "FOOTSWITCH MODE";
+
+/* Class = "IBUILabel"; text = "Settings"; ObjectID = "o1r-zb-eY4"; */
+"o1r-zb-eY4.text" = "Configuraciones";
+
+/* Class = "IBUILabel"; text = "MACHINE5"; ObjectID = "o8L-Tg-SBF"; */
+"o8L-Tg-SBF.text" = "MACHINE5";
+
+/* Class = "IBUILabel"; text = "SHADER"; ObjectID = "oKT-VU-dfZ"; */
+"oKT-VU-dfZ.text" = "SHADER";
+
+/* Class = "IBUILabel"; text = "Change Password"; ObjectID = "ohW-bg-LaP"; */
+"ohW-bg-LaP.text" = "cambiar la contraseña";
+
+/* Class = "IBUILabel"; text = "MACHINE1"; ObjectID = "rWt-ow-OXB"; */
+"rWt-ow-OXB.text" = "MACHINE1";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "raF-mJ-p7n"; */
+"raF-mJ-p7n.normalTitle" = "Button";
+
+/* Class = "IBUIViewController"; title = "Control"; ObjectID = "svF-ef-U4v"; */
+"svF-ef-U4v.title" = "Control";
+
+/* Class = "IBUIButton"; normalTitle = "Conferma cambio password"; ObjectID = "tjg-cr-C1n"; */
+"tjg-cr-C1n.normalTitle" = "Confirmación de cambio de contraseña";
+
+/* Class = "IBUILabel"; text = "00:00"; ObjectID = "v09-56-gMj"; */
+"v09-56-gMj.text" = "00:00";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "v0p-gf-gEZ"; */
+"v0p-gf-gEZ.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "DUTY:"; ObjectID = "vBh-Dj-haM"; */
+"vBh-Dj-haM.text" = "DUTY:";
+
+/* Class = "IBUIViewController"; title = "Control"; ObjectID = "vXZ-lx-hvc"; */
+"vXZ-lx-hvc.title" = "Control";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "vZI-xX-4If"; */
+"vZI-xX-4If.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "LINER"; ObjectID = "y0k-LK-Fbx"; */
+"y0k-LK-Fbx.text" = "LINER";
+
+/* Class = "IBUILabel"; text = "Foot"; ObjectID = "ym2-rP-UlX"; */
+"ym2-rP-UlX.text" = "Pedal";
+
+/* Class = "IBUILabel"; text = "V"; ObjectID = "zOG-l7-hfF"; */
+"zOG-l7-hfF.text" = "V";

@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA6D27B19D3631200ED8453 /* Marca.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6D27A19D3631200ED8453 /* Marca.m */; };
+		5AA6D28119D364A400ED8453 /* SessionBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6D28019D364A400ED8453 /* SessionBean.m */; };
+		5AAC849B1A19130000A4B0C6 /* ZSYPopoverListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC849A1A19130000A4B0C6 /* ZSYPopoverListView.m */; };
+		5ACB07921A227CF20088E645 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB07941A227CF20088E645 /* Localizable.strings */; };
+		5AD3DA6819D3492C00CB6048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD7AA9B19D203A700D4F0A4 /* Main.storyboard */; };
+		5AD3DA6A19D3493B00CB6048 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD3DA6919D3493B00CB6048 /* UIKit.framework */; };
+		5AD3DA6C19D3494400CB6048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD3DA6B19D3494400CB6048 /* Foundation.framework */; };
+		5AD3DA6E19D3494A00CB6048 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD3DA6D19D3494A00CB6048 /* CoreGraphics.framework */; };
+		5AD3DA7019D3495200CB6048 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD3DA6F19D3495200CB6048 /* CoreBluetooth.framework */; };
+		5AD3DA7619D34A8000CB6048 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3DA7419D34A8000CB6048 /* BLE.m */; };
+		5AD7AA9419D203A700D4F0A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7AA9319D203A700D4F0A4 /* main.m */; };
+		5AD7AA9719D203A700D4F0A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7AA9619D203A700D4F0A4 /* AppDelegate.m */; };
+		5AD7AA9A19D203A700D4F0A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7AA9919D203A700D4F0A4 /* ViewController.m */; };
+		5AD7AA9F19D203A700D4F0A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD7AA9E19D203A700D4F0A4 /* Images.xcassets */; };
+		85979DDB1A7A887A00A84B04 /* digital display tfb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85979DDA1A7A887A00A84B04 /* digital display tfb.ttf */; };
+		A55C80EA1A961B2000496F71 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = A55C80E81A961B1900496F71 /* digital-7 (mono).ttf */; };
+		A55C80EB1A961B2300496F71 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A55C80E91A961B1900496F71 /* digital-7.ttf */; };
+		A55C80EE1A964CD100496F71 /* PresetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C80ED1A964CD100496F71 /* PresetViewController.m */; };
+		A5CE2FFC1ABDA01A003930CD /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CE2FFB1ABDA01A003930CD /* ImageScrollView.m */; };
+		A5D61D4B1A8B753D004C2605 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D61D4A1A8B753D004C2605 /* WelcomeViewController.m */; };
+		A5D61D511A8B75CB004C2605 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D61D4F1A8B75CB004C2605 /* SignUpViewController.m */; };
+		A5D61D561A8B7602004C2605 /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D61D531A8B7602004C2605 /* ResetPasswordViewController.m */; };
+		A5D61D571A8B7602004C2605 /* TermsPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D61D551A8B7602004C2605 /* TermsPrivacyViewController.m */; };
+		A5D61E751A8B7842004C2605 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D61D5A1A8B7841004C2605 /* FacebookSDK.framework */; };
+		A5D61E761A8B7842004C2605 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D61D5B1A8B7841004C2605 /* FBAudienceNetwork.framework */; };
+		A5DB5B0E1A92222500EF311B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DB5B0D1A92222500EF311B /* MenuViewController.m */; };
+		A5DB5B111A928CA500EF311B /* FootSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DB5B101A928CA500EF311B /* FootSwitchViewController.m */; };
+		A5DB5B141A9366E800EF311B /* DeviceNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DB5B131A9366E800EF311B /* DeviceNameViewController.m */; };
+		A5DB5B171A937D2600EF311B /* DevicePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DB5B161A937D2600EF311B /* DevicePasswordViewController.m */; };
+		A5DB5B1A1A93A69900EF311B /* DeviceChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DB5B191A93A69900EF311B /* DeviceChangePasswordViewController.m */; };
+		A5E5CC001A8B795900C86E0E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A5E5CBFF1A8B795900C86E0E /* LICENSE */; };
+		A5E5CC071A8B7E7500C86E0E /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E5CC061A8B7E7500C86E0E /* ModalViewController.m */; };
+		A5E5CC191A8E46A300C86E0E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D61D4D1A8B75CB004C2605 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AA6D27A19D3631200ED8453 /* Marca.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Marca.m; path = Bean/Marca.m; sourceTree = "<group>"; };
+		5AA6D27D19D3640800ED8453 /* SessionBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SessionBean.h; path = DTO/SessionBean.h; sourceTree = "<group>"; };
+		5AA6D27F19D3644300ED8453 /* Marca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Marca.h; path = Bean/Marca.h; sourceTree = "<group>"; };
+		5AA6D28019D364A400ED8453 /* SessionBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SessionBean.m; path = DTO/SessionBean.m; sourceTree = "<group>"; };
+		5AAC84991A19130000A4B0C6 /* ZSYPopoverListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSYPopoverListView.h; sourceTree = "<group>"; };
+		5AAC849A1A19130000A4B0C6 /* ZSYPopoverListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSYPopoverListView.m; sourceTree = "<group>"; };
+		5ACB07931A227CF20088E645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5AD3DA6919D3493B00CB6048 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AD3DA6B19D3494400CB6048 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AD3DA6D19D3494A00CB6048 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AD3DA6F19D3495200CB6048 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5AD3DA7319D34A8000CB6048 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		5AD3DA7419D34A8000CB6048 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		5AD3DA7519D34A8000CB6048 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		5AD7AA8E19D203A700D4F0A4 /* Tattoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tattoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD7AA9219D203A700D4F0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD7AA9319D203A700D4F0A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AD7AA9519D203A700D4F0A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AD7AA9619D203A700D4F0A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AD7AA9819D203A700D4F0A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AD7AA9919D203A700D4F0A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AD7AA9C19D203A700D4F0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD7AA9E19D203A700D4F0A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85979DDA1A7A887A00A84B04 /* digital display tfb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital display tfb.ttf"; sourceTree = "<group>"; };
+		A5231BFA1A9CC0D400AAFBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A5231BFB1A9CC0D400AAFBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A55C80E81A961B1900496F71 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		A55C80E91A961B1900496F71 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		A55C80EC1A964CD100496F71 /* PresetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetViewController.h; sourceTree = "<group>"; };
+		A55C80ED1A964CD100496F71 /* PresetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresetViewController.m; sourceTree = "<group>"; };
+		A5CE2FFA1ABDA01A003930CD /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		A5CE2FFB1ABDA01A003930CD /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+		A5D61D491A8B753D004C2605 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		A5D61D4A1A8B753D004C2605 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		A5D61D4C1A8B75CB004C2605 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A5D61D4D1A8B75CB004C2605 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A5D61D4E1A8B75CB004C2605 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		A5D61D4F1A8B75CB004C2605 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		A5D61D521A8B7602004C2605 /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		A5D61D531A8B7602004C2605 /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		A5D61D541A8B7602004C2605 /* TermsPrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsPrivacyViewController.h; sourceTree = "<group>"; };
+		A5D61D551A8B7602004C2605 /* TermsPrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsPrivacyViewController.m; sourceTree = "<group>"; };
+		A5D61D5A1A8B7841004C2605 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		A5D61D5B1A8B7841004C2605 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		A5DB5B0C1A92222500EF311B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A5DB5B0D1A92222500EF311B /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		A5DB5B0F1A928CA500EF311B /* FootSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootSwitchViewController.h; sourceTree = "<group>"; };
+		A5DB5B101A928CA500EF311B /* FootSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootSwitchViewController.m; sourceTree = "<group>"; };
+		A5DB5B121A9366E800EF311B /* DeviceNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceNameViewController.h; sourceTree = "<group>"; };
+		A5DB5B131A9366E800EF311B /* DeviceNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceNameViewController.m; sourceTree = "<group>"; };
+		A5DB5B151A937D2600EF311B /* DevicePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicePasswordViewController.h; sourceTree = "<group>"; };
+		A5DB5B161A937D2600EF311B /* DevicePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicePasswordViewController.m; sourceTree = "<group>"; };
+		A5DB5B181A93A69900EF311B /* DeviceChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceChangePasswordViewController.h; sourceTree = "<group>"; };
+		A5DB5B191A93A69900EF311B /* DeviceChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceChangePasswordViewController.m; sourceTree = "<group>"; };
+		A5E5CBFF1A8B795900C86E0E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A5E5CC051A8B7E7500C86E0E /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		A5E5CC061A8B7E7500C86E0E /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD7AA8B19D203A700D4F0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD3DA7019D3495200CB6048 /* CoreBluetooth.framework in Frameworks */,
+				5AD3DA6E19D3494A00CB6048 /* CoreGraphics.framework in Frameworks */,
+				5AD3DA6A19D3493B00CB6048 /* UIKit.framework in Frameworks */,
+				5AD3DA6C19D3494400CB6048 /* Foundation.framework in Frameworks */,
+				A5D61E751A8B7842004C2605 /* FacebookSDK.framework in Frameworks */,
+				A5D61E761A8B7842004C2605 /* FBAudienceNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA6D27919D362EE00ED8453 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6D27F19D3644300ED8453 /* Marca.h */,
+				5AA6D27A19D3631200ED8453 /* Marca.m */,
+			);
+			name = Bean;
+			sourceTree = "<group>";
+		};
+		5AA6D27C19D363F100ED8453 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6D27D19D3640800ED8453 /* SessionBean.h */,
+				5AA6D28019D364A400ED8453 /* SessionBean.m */,
+			);
+			name = DTO;
+			sourceTree = "<group>";
+		};
+		5AAC84981A19130000A4B0C6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC84991A19130000A4B0C6 /* ZSYPopoverListView.h */,
+				5AAC849A1A19130000A4B0C6 /* ZSYPopoverListView.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		5AD3DA7119D3495E00CB6048 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A5D61D581A8B7841004C2605 /* FacebookSDK */,
+				5AD3DA6F19D3495200CB6048 /* CoreBluetooth.framework */,
+				5AD3DA6D19D3494A00CB6048 /* CoreGraphics.framework */,
+				5AD3DA6B19D3494400CB6048 /* Foundation.framework */,
+				5AD3DA6919D3493B00CB6048 /* UIKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		5AD3DA7219D34A8000CB6048 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				5AD3DA7319D34A8000CB6048 /* BLE.h */,
+				5AD3DA7419D34A8000CB6048 /* BLE.m */,
+				5AD3DA7519D34A8000CB6048 /* BLEDefines.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		5AD7AA8519D203A700D4F0A4 = {
+			isa = PBXGroup;
+			children = (
+				5AD7AA9019D203A700D4F0A4 /* BluetoothControl */,
+				5AD3DA7119D3495E00CB6048 /* Framework */,
+				5AD7AA8F19D203A700D4F0A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD7AA8F19D203A700D4F0A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD7AA8E19D203A700D4F0A4 /* Tattoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD7AA9019D203A700D4F0A4 /* BluetoothControl */ = {
+			isa = PBXGroup;
+			children = (
+				A55C80E81A961B1900496F71 /* digital-7 (mono).ttf */,
+				A55C80E91A961B1900496F71 /* digital-7.ttf */,
+				85979DDA1A7A887A00A84B04 /* digital display tfb.ttf */,
+				5AAC84981A19130000A4B0C6 /* Lib */,
+				5AA6D27C19D363F100ED8453 /* DTO */,
+				5AA6D27919D362EE00ED8453 /* Bean */,
+				5AD3DA7219D34A8000CB6048 /* BLE */,
+				5AD7AA9119D203A700D4F0A4 /* Supporting Files */,
+				5AD7AA9519D203A700D4F0A4 /* AppDelegate.h */,
+				5AD7AA9619D203A700D4F0A4 /* AppDelegate.m */,
+				5AD7AA9819D203A700D4F0A4 /* ViewController.h */,
+				5AD7AA9919D203A700D4F0A4 /* ViewController.m */,
+				5AD7AA9B19D203A700D4F0A4 /* Main.storyboard */,
+				5AD7AA9E19D203A700D4F0A4 /* Images.xcassets */,
+				A5D61D491A8B753D004C2605 /* WelcomeViewController.h */,
+				A5D61D4A1A8B753D004C2605 /* WelcomeViewController.m */,
+				A5D61D4C1A8B75CB004C2605 /* LoginViewController.h */,
+				A5D61D4D1A8B75CB004C2605 /* LoginViewController.m */,
+				A5D61D4E1A8B75CB004C2605 /* SignUpViewController.h */,
+				A5D61D4F1A8B75CB004C2605 /* SignUpViewController.m */,
+				A5D61D521A8B7602004C2605 /* ResetPasswordViewController.h */,
+				A5D61D531A8B7602004C2605 /* ResetPasswordViewController.m */,
+				A5D61D541A8B7602004C2605 /* TermsPrivacyViewController.h */,
+				A5D61D551A8B7602004C2605 /* TermsPrivacyViewController.m */,
+				A5DB5B0C1A92222500EF311B /* MenuViewController.h */,
+				A5DB5B0D1A92222500EF311B /* MenuViewController.m */,
+				A5E5CC051A8B7E7500C86E0E /* ModalViewController.h */,
+				A5E5CC061A8B7E7500C86E0E /* ModalViewController.m */,
+				A5DB5B0F1A928CA500EF311B /* FootSwitchViewController.h */,
+				A5DB5B101A928CA500EF311B /* FootSwitchViewController.m */,
+				A5DB5B121A9366E800EF311B /* DeviceNameViewController.h */,
+				A5DB5B131A9366E800EF311B /* DeviceNameViewController.m */,
+				A5DB5B151A937D2600EF311B /* DevicePasswordViewController.h */,
+				A5DB5B161A937D2600EF311B /* DevicePasswordViewController.m */,
+				A5DB5B181A93A69900EF311B /* DeviceChangePasswordViewController.h */,
+				A5DB5B191A93A69900EF311B /* DeviceChangePasswordViewController.m */,
+				A55C80EC1A964CD100496F71 /* PresetViewController.h */,
+				A55C80ED1A964CD100496F71 /* PresetViewController.m */,
+				A5CE2FFA1ABDA01A003930CD /* ImageScrollView.h */,
+				A5CE2FFB1ABDA01A003930CD /* ImageScrollView.m */,
+			);
+			path = BluetoothControl;
+			sourceTree = "<group>";
+		};
+		5AD7AA9119D203A700D4F0A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD7AA9219D203A700D4F0A4 /* Info.plist */,
+				5AD7AA9319D203A700D4F0A4 /* main.m */,
+				5ACB07941A227CF20088E645 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D61D581A8B7841004C2605 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A5D61D5B1A8B7841004C2605 /* FBAudienceNetwork.framework */,
+				A5D61D5A1A8B7841004C2605 /* FacebookSDK.framework */,
+				A5E5CBFF1A8B795900C86E0E /* LICENSE */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD7AA8D19D203A700D4F0A4 /* Tattoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD7AAB119D203A700D4F0A4 /* Build configuration list for PBXNativeTarget "Tattoo" */;
+			buildPhases = (
+				5AD7AA8A19D203A700D4F0A4 /* Sources */,
+				5AD7AA8B19D203A700D4F0A4 /* Frameworks */,
+				5AD7AA8C19D203A700D4F0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tattoo;
+			productName = BluetoothControl;
+			productReference = 5AD7AA8E19D203A700D4F0A4 /* Tattoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD7AA8619D203A700D4F0A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iPower;
+				TargetAttributes = {
+					5AD7AA8D19D203A700D4F0A4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = CHF4WS42VR;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5AD7AA8919D203A700D4F0A4 /* Build configuration list for PBXProject "Tattoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5AD7AA8519D203A700D4F0A4;
+			productRefGroup = 5AD7AA8F19D203A700D4F0A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD7AA8D19D203A700D4F0A4 /* Tattoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD7AA8C19D203A700D4F0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E5CC001A8B795900C86E0E /* LICENSE in Resources */,
+				A55C80EB1A961B2300496F71 /* digital-7.ttf in Resources */,
+				85979DDB1A7A887A00A84B04 /* digital display tfb.ttf in Resources */,
+				5AD7AA9F19D203A700D4F0A4 /* Images.xcassets in Resources */,
+				A55C80EA1A961B2000496F71 /* digital-7 (mono).ttf in Resources */,
+				5ACB07921A227CF20088E645 /* Localizable.strings in Resources */,
+				5AD3DA6819D3492C00CB6048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD7AA8A19D203A700D4F0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CE2FFC1ABDA01A003930CD /* ImageScrollView.m in Sources */,
+				A5D61D4B1A8B753D004C2605 /* WelcomeViewController.m in Sources */,
+				5AA6D27B19D3631200ED8453 /* Marca.m in Sources */,
+				A5D61D571A8B7602004C2605 /* TermsPrivacyViewController.m in Sources */,
+				A5DB5B1A1A93A69900EF311B /* DeviceChangePasswordViewController.m in Sources */,
+				A5DB5B171A937D2600EF311B /* DevicePasswordViewController.m in Sources */,
+				5AD7AA9A19D203A700D4F0A4 /* ViewController.m in Sources */,
+				A5DB5B0E1A92222500EF311B /* MenuViewController.m in Sources */,
+				5AA6D28119D364A400ED8453 /* SessionBean.m in Sources */,
+				5AD7AA9719D203A700D4F0A4 /* AppDelegate.m in Sources */,
+				5AD7AA9419D203A700D4F0A4 /* main.m in Sources */,
+				5AAC849B1A19130000A4B0C6 /* ZSYPopoverListView.m in Sources */,
+				A5DB5B111A928CA500EF311B /* FootSwitchViewController.m in Sources */,
+				A5D61D511A8B75CB004C2605 /* SignUpViewController.m in Sources */,
+				5AD3DA7619D34A8000CB6048 /* BLE.m in Sources */,
+				A5DB5B141A9366E800EF311B /* DeviceNameViewController.m in Sources */,
+				A5E5CC071A8B7E7500C86E0E /* ModalViewController.m in Sources */,
+				A55C80EE1A964CD100496F71 /* PresetViewController.m in Sources */,
+				A5E5CC191A8E46A300C86E0E /* LoginViewController.m in Sources */,
+				A5D61D561A8B7602004C2605 /* ResetPasswordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5ACB07941A227CF20088E645 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACB07931A227CF20088E645 /* Base */,
+				A5231BFB1A9CC0D400AAFBBB /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5AD7AA9B19D203A700D4F0A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD7AA9C19D203A700D4F0A4 /* Base */,
+				A5231BFA1A9CC0D400AAFBBB /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD7AAAF19D203A700D4F0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Accenture";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Accenture";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7D5BBA3F-B7EA-4A3E-A25D-DA1E1B87E77E";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AD7AAB019D203A700D4F0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Accenture";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Accenture";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7D5BBA3F-B7EA-4A3E-A25D-DA1E1B87E77E";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD7AAB219D203A700D4F0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = BluetoothControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Tattoo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		5AD7AAB319D203A700D4F0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = BluetoothControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Tattoo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD7AA8919D203A700D4F0A4 /* Build configuration list for PBXProject "Tattoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD7AAAF19D203A700D4F0A4 /* Debug */,
+				5AD7AAB019D203A700D4F0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD7AAB119D203A700D4F0A4 /* Build configuration list for PBXNativeTarget "Tattoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD7AAB219D203A700D4F0A4 /* Debug */,
+				5AD7AAB319D203A700D4F0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD7AA8619D203A700D4F0A4 /* Project object */;
+}
